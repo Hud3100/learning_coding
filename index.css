@@ -1,0 +1,154 @@
+.product_info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100 0 100;
+}
+
+.product_description{
+    width: 70%;
+}
+
+.p_small{
+    font-size: 13px;
+}
+
+.product_description p {
+    font-family: YakuHanJP, Roboto, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto sans JP", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #a09696;
+    margin-top: 25px;
+}
+
+.purchase_info{
+    width: 280px;
+}
+
+.purchase_info h3{
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.purchase_info p{
+    font-size: 12px;
+}
+
+.purchase_info span{
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.purchase_info img{
+    margin-right: 5px;
+}
+
+.p_gray{
+    color: #a09696
+}
+
+.p_black{
+    color: black;
+}
+
+.purchase_button{
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    width: 80%;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.favorite_button{
+    border: none;
+    border-radius: 10px;
+    width: 15%;
+    height: 42px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #9F9596
+}
+
+.product_subinfo{
+    margin-left: 100px;
+}
+
+.product_categories{
+    color: #231e1e;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    height: 50px;
+}
+
+.category{
+    padding: 10px;
+    float: left;
+    margin-right: 10px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+}
+
+.product_data{
+    margin-top: 40px;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    /* width: 65%; */
+    border-top: solid 1.5px #eee;
+    table-layout: fixed;
+}
+
+    table tr{
+        border-bottom: solid 1.5px #eee;
+        width: 10px;
+    }
+
+table td{
+    padding: 14px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #a09696;
+    text-align: left;
+}
+
+.related_product{
+    margin-top: 20px;
+
+}
+
+.swiper-container{
+    height: 230px;
+    display: flex;
+}
+
+.swiper-slide {
+    width: 180px;
+    text-align: left;
+  }
+
+    .swiper-slide img{
+        width: 200px;
+    }
+
+    .swiper-slide p{
+        font-size: 10px;
+        line-height: 18px;
+        margin: 0px;
+    }
+
+    .swiper-slide span{
+        font-weight: 800;
+    }
+
+    .related_product_name{
+        font-weight: 300;
+    }
